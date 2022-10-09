@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.howtodoinjava.rest.SpringBootDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.468 s <<< FAILURE! - in com.howtodoinjava.rest.SpringBootDemoApplicationTests
+testGetEmployeeListSuccess(com.howtodoinjava.rest.SpringBootDemoApplicationTests)  Time elapsed: 0.841 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 null
+	at com.howtodoinjava.rest.SpringBootDemoApplicationTests.testGetEmployeeListSuccess(SpringBootDemoApplicationTests.java:38)
+
